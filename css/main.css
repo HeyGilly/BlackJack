@@ -1,8 +1,110 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/*Always Added*/
 *{padding:0;margin:0;box-sizing:border-box;}
+
+/*Body*/
 body{
     background-image: url("/img/casinoTable.jpg");
     background-size: cover;
-
-
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
 }
 
+/*Navigation*/
+nav{
+    background-color: azure;
+    padding: 1em 0;
+    text-align: center;
+}
+/*Navigation Anchor*/
+nav a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+/*Main Header*/
+h2{
+    font-size: 62px;
+    text-align: center;
+    color:gold;
+    padding: 1em 0 0 0;
+}
+
+/*Main Section*/
+main{
+    border: 5px solid gold;
+    padding: 1em;
+}
+
+/*Start Button  **** nHide this till its time to use it.
+#startButtonContainer{
+    display: flex;
+    justify-content: center;
+}
+#startButton{
+    padding: 12px 24px;
+    color: darkgreen;
+    margin-top: 2em;
+    background-color: gold;
+    font-size: 32px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+*/
+#dealerSection{
+    border: 2px solid red;
+}
+#playerSection{
+    border: 2px solid orange;
+    margin-top: 3em;
+}
+.playerName{
+    color: azure;
+    font-weight: 500;
+    font-size: 24px;
+}
+.cardHolder{
+    text-align: center;
+}
+.numCards{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 800;
+    color: azure;
+}
+
+/*Button Container*/
+#buttonContainer{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Stay Button  & Hit Button*/
+#stayButton, #hitButton{
+    padding: 12px 24px;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#hitButton{
+    background-color: indianred;
+}
+
+@media only screen and (min-width: 600px) {
+    h2{
+        padding: 1em 0;
+    }
+    main{
+        width: 420px;
+        height: fit-content;
+        margin: 0 auto;
+    }
+
+    .numCards{
+        font-size: 62px;
+    }
+}
