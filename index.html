@@ -1,19 +1,58 @@
 <!doctype html>
 <html>
 
-<head>
-  <meta charset="utf-8">
-  <title>Black Jack</title>
-  <meta name="description" content="This application is the legendary card game Blackjack (twenty-one), built with CSS & Javascript. The purpose of the game is to be dealt cards having a higher count than those of the dealer, however not exceeding 21.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!--Personal StyleSheet-->
-  <link rel="stylesheet" href="css/main.css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Black Jack</title>
+    <meta name="description" content="This application is the legendary card game Blackjack (twenty-one), built with CSS & Javascript. The purpose of the game is to be dealt cards having a higher count than those of the dealer, however not exceeding 21.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Personal StyleSheet-->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
 
-<body>
+  <body>
 
+    <!--Navigation-->
+    <nav>
+      <a href="https://www.linkedin.com/in/heygilly" target="_blank">
+        <h3>HeyGilly</h3>
+      </a>
+    </nav>
 
-</body>
+  <div>
+    <h2>Blackjack</h2>
+  </div>
+
+<!-- Hide this till its time to use it
+    <div id="startButtonContainer">
+      <button id="startButton">Start Game</button>
+    </div>
+ -->
+
+  <main>
+  <!--Deal's Hand-->
+    <div id="dealerSection">
+      <p class="playerName">Dealer:</p>
+      <section class="cardHolder">
+        <span class="numCards">0</span>
+        <span class="numCards">0</span>
+      </section>
+    </div>
+  <!--User's Hand-->
+    <div id="playerSection">
+      <p class="playerName">Player:</p>
+      <section class="cardHolder">
+        <span class="numCards">0</span>
+        <span class="numCards">0</span>
+      </section>
+    </div>
+    <div id="buttonContainer">
+      <button id="stayButton">Stay</button>
+      <button id="hitButton">Hit</button>
+    </div>
+  </main>
+
+  </body>
   <!--Personal Javascript-->
   <script src="js/main.js"></script>
 </html>
