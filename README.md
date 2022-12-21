@@ -29,9 +29,17 @@ The languages used to create this application:
 
 ## Pathway
 
+* [X] Think of how you want to display this. 
 * [X] Get a background image
-* [ ] Create navigation Bar with Name 
-* [ ] Put content on page
+* [X] Add google font
+* [X] Create navigation Bar with an anchor Name 
+* [X] Create a Title
+* [X] Put content on page
+  * dealers side
+  * players side
+  * hit button
+  * stay button
+  * start button
 * [ ] Style the content of the page
 * [ ] work with JS to make it functional
 
