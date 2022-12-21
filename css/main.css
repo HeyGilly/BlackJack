@@ -86,14 +86,21 @@ main{
 /*Stay Button  & Hit Button*/
 #stayButton, #hitButton{
     padding: 12px 24px;
-    background-color: azure;
-    border: 2px solid black;
+    background-color: darkseagreen;
+    border: 2px solid azure;
     border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
 }
-#hitButton{
+/*Stay Button*/
+#stayButton{
     background-color: indianred;
 }
 
+
+/*When the screen is larger than 600px*/
 @media only screen and (min-width: 600px) {
     h2{
         padding: 1em 0;
