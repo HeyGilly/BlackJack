@@ -88,7 +88,7 @@ function renderGame(){
         stayButton.addEventListener("click", whoWon);
     }else{
         // Display Message
-        message.textContent = "Busted!"
+        message.textContent = "Busted! You Lose!"
         //Hide hit and stay Container
         stayHitButtonContainer.style.display = "none";
         //Show start Game Button
