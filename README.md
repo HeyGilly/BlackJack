@@ -18,7 +18,7 @@ This application is the legendary card game Blackjack (twenty-one), built with C
 </div>
 
 ## Live View
-- <a href="https://blackjack-gilly.netlify.app/"> Click Here</a>
+- <a href="https://blackjack-gilly.netlify.app/" target="_blank"> Click Here</a>
 
 ## Languages
 
