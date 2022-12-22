@@ -14,11 +14,11 @@ This application is the legendary card game Blackjack (twenty-one), built with C
 </h4>
 
 <div align="center">
-<img src="https://placehold.co/600x400" alt="View of Counter" align="center">
+<img src="img/BlackJack.gif" alt="View of Counter" align="center">
 </div>
 
 ## Live View
-- <a href=""> Click Here</a>
+- <a href="https://blackjack-gilly.netlify.app/"> Click Here</a>
 
 ## Languages
 
@@ -41,7 +41,7 @@ The languages used to create this application:
   * stay button
   * start button
 * [X] Style the content of the page
-* [ ] work with JS to make it functional
+* [X] work with JS to make it functional
   * hide The main
   * When you push start button, start button disappears and main appears with a startGame()
   * Create a function that generate two random numbers for the user's card
