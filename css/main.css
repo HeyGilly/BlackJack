@@ -7,10 +7,9 @@
 body{
     background-image: url("/img/casinoTable.jpg");
     background-size: cover;
-    position: fixed;
-    width: 100%;
-    height: 100%;
     font-family: 'Quicksand', sans-serif;
+    border: 2px solid red;
+    height: 100vh;
 }
 
 /*Navigation*/
@@ -35,11 +34,13 @@ h2{
 
 /*Main Section*/
 main{
-    border: 5px solid gold;
     padding: 1em;
+    margin-top: 5em;
+    border: 2px solid yellow;
+
 }
 
-/*Start Button  **** nHide this till its time to use it.
+/*Start Button*/
 #startButtonContainer{
     display: flex;
     justify-content: center;
@@ -47,18 +48,14 @@ main{
 #startButton{
     padding: 12px 24px;
     color: darkgreen;
-    margin-top: 2em;
+    margin-top: .5em;
     background-color: gold;
     font-size: 32px;
     font-weight: 800;
     border-radius: 10px;
 }
-*/
-#dealerSection{
-    border: 2px solid red;
-}
+
 #playerSection{
-    border: 2px solid orange;
     margin-top: 3em;
 }
 .playerName{
@@ -73,6 +70,17 @@ main{
     font-size: 42px;
     text-align: center;
     font-weight: 800;
+    color: azure;
+    padding:0 .1em;
+}
+
+/*Message Container*/
+#messageContainer{
+    padding-top: 2em;
+}
+/*Message*/
+#message{
+    text-align: center;
     color: azure;
 }
 
@@ -97,6 +105,41 @@ main{
 /*Stay Button*/
 #stayButton{
     background-color: indianred;
+}
+
+/*Ace Container*/
+#aceContainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+/*One & Eleven Number Card*/
+#oneCard, #elevenCard{
+    padding: 12px 24px;
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: darkslategrey;
+}
+
+#playerAmountDisplay{
+    color: azure;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: azure;
+    color: darkslategrey;
+    text-align: center;
 }
 
 
