@@ -23,34 +23,46 @@
     <h2>Blackjack</h2>
   </div>
 
-<!-- Hide this till its time to use it
+<!-- Start Button  -->
     <div id="startButtonContainer">
       <button id="startButton">Start Game</button>
     </div>
- -->
 
-  <main>
-  <!--Deal's Hand-->
+
+  <main id="mainSection">
+  <!--Dealer's Hand-->
     <div id="dealerSection">
       <p class="playerName">Dealer:</p>
       <section class="cardHolder">
-        <span class="numCards">0</span>
-        <span class="numCards">0</span>
+        <span class="numCards" id="dealerCard">00</span>
       </section>
     </div>
-  <!--User's Hand-->
+  <!--Player's Hand-->
     <div id="playerSection">
       <p class="playerName">Player:</p>
       <section class="cardHolder">
-        <span class="numCards">0</span>
-        <span class="numCards">0</span>
+        <span class="numCards" id="playerCard">00</span>
       </section>
     </div>
+    <!--Message of Game-->
+    <div id="messageContainer">
+      <p id="message">Message</p>
+    </div>
+    <section id="aceContainer">
+      <button id="oneCard" class="aceButton" value="1">1</button>
+      <button id="elevenCard" class="aceButton" value="11">11</button>
+    </section>
+    <!--Hit Stay Button-->
     <div id="buttonContainer">
-      <button id="stayButton">Stay</button>
       <button id="hitButton">Hit</button>
+      <button id="stayButton">Stay</button>
     </div>
   </main>
+
+<!--Footer-->
+    <div class="footer">
+      <p>2022</p>
+    </div>
 
   </body>
   <!--Personal Javascript-->
