@@ -8,7 +8,6 @@ body{
     background-image: url("/img/casinoTable.jpg");
     background-size: cover;
     font-family: 'Quicksand', sans-serif;
-    border: 2px solid red;
     height: 100vh;
 }
 
